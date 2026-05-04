@@ -1,0 +1,16 @@
+## Sessão 1 – 04/05/2026
+
+**Funcionalidades implementadas:**
+- ...
+- ...
+
+**Maior dificuldade:**
+...
+
+**Como resolvi (ou não resolvi):**
+...
+
+**Próximo passo planeado:**
+...
+
+**Linhas de código escritas (estimativa):**

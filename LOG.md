@@ -1,7 +1,9 @@
-## Sessão 1 – 04/05/2026
+## Sessão 2 – 14/05/2026
 
 **Funcionalidades implementadas:**
-Regras do jogo
+-Escolha de palavras de forma aleatoria sempre que o jogo começa.
+-Tentativas e verificaçao de letras acertadas.
+-Interface.
 
 **Maior dificuldade:**
 --
@@ -10,6 +12,6 @@ Regras do jogo
 --
 
 **Próximo passo planeado:**
-Escolher as palavras que vao ser utilizadas no jogo.
+Adicionar o placar
 
-**Linhas de código escritas (estimativa):** 12
+**Linhas de código escritas (estimativa):** 91

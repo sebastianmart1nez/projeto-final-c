@@ -1,10 +1,8 @@
 ## Sessão 2 – 14/05/2026
 
 **Funcionalidades implementadas:**
--Escolha de palavras de forma aleatoria sempre que o jogo começa.
--Tentativas e verificaçao de letras acertadas.
--Interface.
-
+-Contador de vitorias e derrotas (placar) adicionado.
+-Desenho da forca adicionado.
 **Maior dificuldade:**
 --
 
@@ -12,6 +10,6 @@
 --
 
 **Próximo passo planeado:**
-Adicionar o placar
+Issue 1 do formador.
 
-**Linhas de código escritas (estimativa):** 91
+**Linhas de código escritas (estimativa):** 120

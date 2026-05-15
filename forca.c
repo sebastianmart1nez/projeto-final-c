@@ -34,7 +34,7 @@ int main() {
             atualizar_placar(-1);
 
             printf("\n --- JOGO DA FORCA ---\n");
-            desenha_forca(erros);
+            boneco_forca(erros);
 
             printf("\nPalavra: ");
             for(int i = 0; i < tamanho; i++) printf("%c ", palavra_descoberta[i]);
@@ -44,7 +44,7 @@ int main() {
             printf("\nEscreve uma letra: ");
 
             char palpite;
-            scanf("%c", &palpite);
+            scanf(" %c", &palpite);
             palpite = toupper(palpite);
 
             int ja_tentou = 0;
@@ -82,10 +82,39 @@ int main() {
         }
 
         printf("\nQueres jogar de novo? (S/N): ");
-        scanf(" %c", jogar_novamente);
+        scanf(" %c", &jogar_novamente);
 
     } while (tolower(jogar_novamente) == 's');
 
     printf("\nObrigado por jogar\n");
     return 0;
 }
+
+    void atualizar_placar(int resultado) {
+        static int vitorias = 0;
+        static int derrotas = 0;
+
+        if(resultado == 1) vitorias++;
+        else if(resultado == 0) derrotas++;
+
+        printf("\n-----------------------");
+        printf("\n Placar: %d VIT | %d DER", vitorias, derrotas);
+        printf("\n-----------------------\n");
+    }
+
+    void boneco_forca(int erros){
+        printf("  +---+\n");
+        printf("  |   |\n");
+        printf("  |   %c\n", (erros >= 1 ? '0' : ' '));
+        printf("  |  %c%c%c\n", (erros >= 3 ? '/' : ' '), (erros >= 2 ? '|' : ' '), (erros >= 4 ? '\\' : ' '));
+        printf("  |  %c %c\n", (erros >= 5 ? '/' : ' '), (erros >=6 ? '\\' : ' '));
+        printf(" _|_  \n");
+    }
+
+    void limpar_tela(void){
+        #ifdef _WIN32
+        system("cls");
+        #else
+        system("clear");
+        #endif
+    }

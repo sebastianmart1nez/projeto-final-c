@@ -1,8 +1,9 @@
-## Sessão 2 – 14/05/2026
+## Sessão 3 e 4 – 23/05/2026 - 25/05/2026
 
 **Funcionalidades implementadas:**
--Contador de vitorias e derrotas (placar) adicionado.
--Desenho da forca adicionado.
+-- API de um diccionario de palavras
+-- Remoçao de acentos e carateres especiais
+-- Persistencia em ficheiro
 **Maior dificuldade:**
 --
 
@@ -10,6 +11,6 @@
 --
 
 **Próximo passo planeado:**
-Issue 1 do formador.
+--
 
-**Linhas de código escritas (estimativa):** 120
+**Linhas de código escritas (estimativa):** 415
